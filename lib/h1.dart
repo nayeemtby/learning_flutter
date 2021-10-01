@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'data.dart';
+import 'drawer.dart';
 
 class MyHome extends StatelessWidget {
   const MyHome({Key? key}) : super(key: key);
@@ -7,8 +8,8 @@ class MyHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: MyDrawer(),
       appBar: AppBar(
-        leading: Icon(Icons.menu),
         title: Text("Contacts"),
         centerTitle: true,
         actions: [
@@ -91,7 +92,7 @@ Widget listItems(BuildContext context, int index) {
                   ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                     content: CircleAvatar(
                       radius: 50,
-                      child: Text("Calling..."),
+                      child: Text("Calling ${Names[index]}"),
                     ),
                     duration: Duration(seconds: 1),
                   ));
