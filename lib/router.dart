@@ -1,5 +1,6 @@
 import 'package:demo_project/pages.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'pages.dart';
 
 class MyHome extends StatelessWidget {
@@ -34,8 +35,8 @@ class MyHome extends StatelessWidget {
               return Routes[index].value;
             }));
           },
-          leading: Icon(
-            Icons.widgets,
+          leading: FaIcon(
+            FontAwesomeIcons.addressCard,
             size: 40,
           ),
           title: Text(
