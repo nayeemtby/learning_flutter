@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'router.dart';
-import 'buttontask.dart';
+import 'bmiscr.dart';
 
 main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyHome(),
+      home: BmiScr(),
       debugShowCheckedModeBanner: false,
     );
   }
