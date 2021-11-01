@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-//import 'router.dart';
-import 'auth/login.dart';
+// import 'router.dart';
+// import 'auth/login.dart';
+// import 'bmiscr.dart';
+import 'theming/task.dart';
 
 main() {
   runApp(MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: AuthLogin(),
+      home: ThemeApp(),
       debugShowCheckedModeBanner: false,
     );
   }
