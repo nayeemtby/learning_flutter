@@ -49,3 +49,4 @@ build
 ios
 web
 android
+*.apikey.dart
