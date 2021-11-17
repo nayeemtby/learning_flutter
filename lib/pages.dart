@@ -1,7 +1,16 @@
 import 'package:flutter/widgets.dart';
 import 'task1.dart';
 import 'lv.dart';
+import 'bmiscr.dart';
+import 'auth/login.dart';
+import 'counter_app.dart';
 
-Map<String, Widget> RouteData = {"Details": MyDetails(), "ListView": MyLV()};
+Map<String, Widget> RouteData = {
+  "Details": MyDetails(),
+  "ListView": MyLV(),
+  "BMI Screen": BmiScr(),
+  "Login Screen": AuthLogin(),
+  "Counter App": CounterApp()
+};
 
-var Routes = RouteData.entries.toList();
+List Routes = RouteData.entries.toList();
