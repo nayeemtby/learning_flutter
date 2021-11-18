@@ -21,8 +21,11 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+#  html: any
+  flutter_widget_from_html: any
   font_awesome_flutter: any
-  rive: ^0.7.33
+  http: any
+  url_launcher: any
   flutter:
     sdk: flutter
 
