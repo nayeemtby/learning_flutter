@@ -1,0 +1,3 @@
+[submodule "others/kita"]
+	path = others/kita
+	url = https://github.com/nayeemtby/kita
